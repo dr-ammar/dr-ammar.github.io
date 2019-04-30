@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+
+*{
+  
+  box-sizing: border-box;
+  font-family: 'Cairo', sans-serif;
+  
+  
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  padding: 0px;
+  margin: 0px;
+}
+
+h1{
+  font-size: 40px;
+}
+
+#container{
+  width: 100%;
+  margin: 0 auto;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+
+a:link{
+  color:burlywood;
+}
+a:hover{
+  color:burlywood;
+}
