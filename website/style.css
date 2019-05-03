@@ -1,0 +1,232 @@
+
+
+
+
+
+body {
+	background-image:url('gray.jpg');
+	color: #000305;
+	font-size: 95%;
+	font-family: Arial, 'Lucida Sans Unicode';
+	line-height:1.5;
+	text-align:left;
+}
+
+a {text-decoration: none;}
+a:link, a:visited{color:  #e74c3c}
+a:hover, a:active{color:  #ff6b6b}
+
+.body {
+	margin: 20px auto;
+	width: 70%;
+	clear: both;
+	text-shadow:1px 1px #000;
+
+}
+/* ------------------------- Main Header ----------------------- */
+
+
+.mainheader img{
+	width: 100%;
+	border-radius: 10px;
+}
+.mainheader nav{
+	background-color:#e74c3c; 
+	height:24.5%;
+	border-radius: 5px;
+}
+
+.mainheader nav ul{
+	text-align: center;
+	list-style:none;
+	margin: 0 auto;
+
+}
+
+.mainheader nav ul li{
+	display:inline;
+}
+.mainheader a:link, .mainheader a:visited {
+	color: white;
+	padding: 2.6% 7%;
+	display:inline-block;
+}
+
+.mainheader a:hover, .mainheader a:active {
+	color: white;
+	background-color: #ff6b6b;
+	height: 24.5%;
+}
+
+/* ----------------------- Main Content ------------------- */
+#mainContent{
+width:64%; 
+float:left;
+}
+
+.subject{
+	background-color: white;
+	padding: 2%;
+	margin-top:2%;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+
+
+.Writer{
+	font-size: 100%;
+	color: #999;
+	font-style: italic;
+	margin-top: -5%;
+}
+
+
+
+.last{
+	display: inline;
+}
+
+
+
+
+/* ------------------------- Side Bar ----------------------- */
+
+
+
+.sidebar{
+	width: 30%;
+	margin: 5% 0 2% 2%;
+	float: left;
+	padding:2% 2%;
+	background-color:white;
+	border-radius: 5px; 
+}
+
+
+
+
+
+
+/* ------------------------- footer ----------------------- */
+
+
+.footer{
+	margin-top:2%;
+	float: left;
+	width: 100%;
+	text-align: center;
+	background-color:#e74c3c; 
+	height:49%;
+	border-radius: 5px;
+}
+
+
+
+.footer p{
+	text-align: center;
+	color: #fff;
+	width: 100%;
+}
+
+
+
+
+/* ------------------------- html5 ----------------------- */
+
+#image-last {
+	width: 100%;
+		border-radius: 10px;
+}
+
+figure {
+	margin:5% 0;
+	font-size: 80%;
+	font-style: italic;
+	color: #999;
+}
+
+/* ------------------------- iphone ----------------------- */
+
+
+
+@media screen and (max-width:414px){
+	.body{
+	width: 90%;
+	font-size: 100%;
+	}
+
+/* ------------------- Main Header iphone ----------------- */
+
+
+.mainheader nav{
+	height:70%;
+}
+
+.mainheader ul {
+	width: 100%;
+	padding: 0 ;
+	text-align: center;
+
+}
+
+
+.mainheader nav ul{
+	text-align: center;
+	list-style:none;
+	margin: 0 auto;
+
+}
+
+.mainheader nav ul li{
+	display:inline;
+}
+.mainheader a:link, .mainheader a:visited {
+	display:block;
+}
+
+.mainheader a:hover, .mainheader a:active {
+	color: white;
+	background-color: #ff6b6b;
+	height: 24.5%;
+}
+
+#mainContent{
+width:100%; 
+}
+
+.sidebar{
+	width: 94%;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

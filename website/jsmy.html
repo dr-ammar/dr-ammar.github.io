@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>js</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="jsmy.css">
+	<meta >
+</head>
+<body>
+	<a id="link" href="index.html">Home</a>
+	<div id="body">
+<script  type="text/javascript">
+	function bn(){
+		alert(document.getElementById('bn').value);
+
+	}
+	var x = 0; 
+	function Su() {
+		var n1 = parseInt( document.getElementById('n1').value);
+		var n2 = parseInt( document.getElementById('n2').value);
+		debugger;
+		x = x + n1 + n2;
+		console.log(x);
+		document.getElementById('sim').innerHTML = x;
+		if (n1<=0) {
+		alert('number1 error');
+
+		}
+		if (n2<=0) {
+		alert('number2 error');
+
+		}
+		}
+		function tx(){
+		var text = document.getElementById('t').value;
+		document.getElementById('para').innerHTML = text;
+	}
+</script>
+تنبيه: <input  class="text" id="bn" type="text" name="alert">
+<button class="zar" type="button" onclick="bn();">اضغط هنا</button>
+<br/>
+number :<input class="text" type="text" name="first"  id="n1">
+<br/>
+number :<input  class="text" type="text" name="second" id="n2">
+<br/>
+<button class="zar" type="button" onclick="Su()">cull my</button>
+<br/>
+<p class="sim" id="sim">الاجابه هنا</p>
+<article>
+	<input class="text" type="text" name="first"  id="t">
+<button class="zar" type="button" onclick="tx();">.:: text+ ::.</button>
+	<p 	class="sim" id="para">الذي تكتبه ينحط هنا</p>
+</article>
+</div>
+</body>
+</html>
+
+
+
