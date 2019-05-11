@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+
+*{
+  
+  box-sizing: border-box;
+  font-family: 'Cairo', sans-serif;
+  
+  
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  padding: 0px;
+  margin: 0px;
+}

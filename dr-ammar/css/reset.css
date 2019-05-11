@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Cairo');
-
+@import url('https://fonts.googleapis.com/css?family=Gugi&subset=korean');
 *{
   
   box-sizing: border-box;
-  font-family: 'Cairo', sans-serif;
+  font-family: 'Gugi', cursive ,'Cairo', sans-serif;
   
   
   text-rendering: optimizeLegibility;
