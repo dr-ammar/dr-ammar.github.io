@@ -3,7 +3,7 @@
 if(isset($_POST['email'])) {
 
     // قم بتعديل السطرين أدناه
-    $email_to = "jssar.rar2@gmail.com";
+    $email_to = "ammar.rar2@gmail.com";
     $email_subject = "Email from :";
 
     $first_name = $_POST['first_name']; // required
@@ -31,12 +31,12 @@ $headers = 'From: '.$email_from."\r\n".
 'X-Mailer: PHP/' . phpversion();
 @mail($email_to, $email_subject, $email_message, $headers);  
 ?>
- 
-<?php
+
+ <?php
     echo "<script type='text/javascript'>alert('شكرا لتواصلك، سيتم قراءة الرسالة والرد بأقرب وقت ممكن')</script>";
     echo "<script> window.location.assign('../index.html'); </script>";
-?> 
- 
-<?php
+?>
+
+ <?php
 }
 ?>
