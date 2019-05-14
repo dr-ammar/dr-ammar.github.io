@@ -1,0 +1,58 @@
+.cors {
+  text-align: center;
+  background: #012d61;
+  color: wheat;
+  height: 860px;
+}
+.cors h1{
+  margin-top: 35px;
+  color: #23cb81;
+  text-shadow: 1px 1px 1px #fff;
+}
+
+.col-3 {
+  border: 1px solid #fff;
+  border-radius: 15px;
+  width: 31.3%;
+  float: left;
+  margin: 1%;
+  padding:2%;
+  border: 1px solid #fff;
+  border-radius: 25px;
+  overflow-y:scroll;
+}
+
+.col-img{
+  width: 100%;
+  border: 1px solid #000;
+  border-radius: 10px;
+  box-shadow: 15px 15px 40px #000;
+  max-width: 300px;
+}
+
+.button {
+  clear: both;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  width: 180px;
+  height: 50px;
+  border:none;
+  color: white;
+  box-shadow: 0px 5px #999;
+  background-color: #012d61;
+  border-radius: 30px;
+  transition-duration: 0.1s;
+  font-size: 20px;
+}
+.button:active{
+  box-shadow: 0px 0px #999;
+  transform: translateY(4px);
+}
+.button.cors{
+  background-color: white;
+  color: black;
+}
+
+
+
+
