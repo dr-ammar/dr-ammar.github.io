@@ -1,0 +1,9 @@
+.about {
+  height: 90%;
+  text-align: center;
+}
+.about p{
+  text-align: center;
+  margin: auto;
+  width: 555px;
+}
