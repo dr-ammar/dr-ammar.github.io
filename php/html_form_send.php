@@ -1,9 +1,9 @@
-<?php
+ <?php
  header('Content-Type: text/html; charset=utf-8');
 if(isset($_POST['email'])) {
 
     // قم بتعديل السطرين أدناه
-    $email_to = "ammar.rar2@gmail.com";
+    $email_to = "email@website.com";
     $email_subject = "Email from :";
 
     $first_name = $_POST['first_name']; // required
