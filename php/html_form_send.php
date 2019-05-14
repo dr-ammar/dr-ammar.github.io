@@ -3,7 +3,7 @@
 if(isset($_POST['email'])) {
 
     // قم بتعديل السطرين أدناه
-    $email_to = "email@website.com";
+    $email_to = "jssar.rar2@gmail.com";
     $email_subject = "Email from :";
 
     $first_name = $_POST['first_name']; // required
