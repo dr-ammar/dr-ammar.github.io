@@ -1,8 +1,36 @@
 @media (max-width:783px){
-  .cors {
+.continer{
+  width: 95%;
+}
+
+
+.menu-img{
+  margin-left: 35px;
+}
+
+.cors {
   text-align: center;
   background: #012d61;
   color: wheat;
   height: 900px;
 }
+
+.col-3{
+  max-height:715px;
+}
+
+.button.cors{
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
 }

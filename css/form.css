@@ -1,19 +1,19 @@
 #send{
   text-align: center;
   background-color: #f2f2f2;
-  padding: 50px 0;
-  height: 530px;
+  padding: 10px 0;
+  height: 580px;
+  text-shadow: 5px 5px 10px #999;
 }
 
-.col-2{
-  width: 50%;
-  float: left;
+.contact{
+  width: 100%;
 }
 
 
 input[type="text"],input[type="email"], textarea {
 	background-color: white;
-	width: 80%;
+	width: 100%;
 	height: 40px;
 	border: 1px solid #999;
 	border-radius: 15px;

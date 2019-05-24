@@ -3,7 +3,6 @@
   height: 70px;
   background-color: #012d61;
   position: fixed;
-  z-index: 200;
   width: 100%;
   border-bottom: 1px solid #fff;
 }
